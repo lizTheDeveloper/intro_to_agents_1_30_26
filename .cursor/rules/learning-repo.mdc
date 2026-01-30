@@ -1,0 +1,24 @@
+---
+description: Learning repo — minimal, legible code for live class; overrides production best practices
+alwaysApply: true
+---
+
+# Learning Repository
+
+This repo is for **live coding in class**. Follow **plans/learning-conventions.md** for all work here.
+
+## Overrides (do NOT use in this repo)
+
+- **No centralized logging module** — use `print()` or minimal inline logging.
+- **No productionization** — no feature flags, no robust config/secrets, no heavy error-handling layers.
+- **No unnecessary deps** — minimum external requirements; prefer stdlib.
+- **No commenting out features** — remove or move to a separate example; keep one clear idea per file.
+
+## Do
+
+- **Legible, clean code** — fewest lines that run and are easy to explore in class.
+- **Short, meaningful names** — no single-letter variables.
+- **One main idea per file** when possible; keep examples runnable with minimal setup (e.g. `python example.py`).
+- **Python preferred**; venv in `./venv` or `./env`; no Conda.
+
+Optimize for: **readable, minimal, runnable** — not production-ready.
