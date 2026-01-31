@@ -1,0 +1,2 @@
+This is a sample text file for testing the MCP filesystem server.
+It contains some basic information that can be read by the agent.

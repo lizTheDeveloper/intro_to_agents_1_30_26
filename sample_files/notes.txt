@@ -1,0 +1,4 @@
+Meeting Notes:
+- Discuss MCP integration
+- Test filesystem server
+- Verify agent can read files

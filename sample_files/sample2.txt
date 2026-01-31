@@ -1,0 +1,2 @@
+Another sample file with different content.
+This demonstrates multiple files in the directory.
